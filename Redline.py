@@ -148,7 +148,6 @@ for district in Districts:
                 district.median_income = 0
 
 
-## Part 7
 
 cache_list = []
 
@@ -170,7 +169,6 @@ with open("District_Cache.json", "w") as outfile:
     outfile.write(json_cache)
 
 
-## Part 8
 
 A_districts = []
 B_districts = []
@@ -217,7 +215,6 @@ D_median_income = statistics.median(D_district_incomes)
 
 
 
-## Part 9
 
 A_string = ""
 B_string = ""
